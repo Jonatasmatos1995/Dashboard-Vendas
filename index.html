@@ -17,6 +17,7 @@
         h1 {
             color: #333;
             margin-bottom: 20px;
+            text-align: center;
         }
         .dashboard-img {
             max-width: 100%;
@@ -25,10 +26,42 @@
             border-radius: 8px;
             box-shadow: 0 4px 12px rgba(0,0,0,0.15);
         }
+        .description-container {
+            width: 80%;
+            max-width: 1100px;
+            margin-top: 30px;
+            background: #fff;
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+            font-size: 16px;
+            color: #444;
+            line-height: 1.6;
+        }
+        .description-container h3 {
+            margin-top: 0;
+            color: #007acc;
+        }
     </style>
 </head>
 <body>
+
     <h1>Dashboard de Vendas do Mercado</h1>
+    
+    <!-- Imagem do Dashboard de Vendas -->
     <img src="Mercado_page-0001.jpg" alt="Dashboard de Vendas do Mercado" class="dashboard-img">
+
+    <!-- Texto Explicativo do Projeto -->
+    <div class="description-container">
+        <h3>Sobre este projeto</h3>
+        <p>
+            Este dashboard interativo foi desenvolvido para analisar o desempenho de vendas de um mercado, reunindo indicadores essenciais para a tomada de decisões. 
+            A solução consolida dados de faturamento total, volume de vendas, ticket médio, além de detalhar o ranking dos produtos mais vendidos e as formas de pagamento preferidas pelos clientes.
+        </p>
+        <p>
+            <strong>Tecnologias utilizadas:</strong> Modelagem de dados e consultas estruturadas no MySQL, processamento de métricas e visualização no Power BI, com hospedagem web integrada via GitHub e Vercel.
+        </p>
+    </div>
+
 </body>
 </html>
