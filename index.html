@@ -22,7 +22,7 @@
         }
         .dashboard-container {
             width: 100%;
-            max-width: 1200px; /* Aumenta a largura total para preencher a tela */
+            max-width: 1200px;
             background: #fff;
             border-radius: 12px;
             box-shadow: 0 4px 15px rgba(0,0,0,0.12);
@@ -31,12 +31,14 @@
             display: flex;
             justify-content: center;
             align-items: center;
+            overflow: hidden; /* Mantém o conteúdo contido dentro da caixa */
         }
         .dashboard-img {
-            width: 100%; /* Faz a imagem expandir preenchendo todo o contentor proporcionalmente */
+            width: 105%; /* Expande levemente para preencher melhor */
             height: auto;
             display: block;
             border-radius: 8px;
+            transform: translateX(25px); /* Desloca o dashboard inteiro para a direita para alinhar os espaços */
         }
         .description-container {
             width: 100%;
@@ -62,7 +64,7 @@
 
     <h1>Dashboard de Vendas do Mercado</h1>
     
-    <!-- Contentor expandido que preenche o espaço de forma fluida -->
+    <!-- Contentor com deslocamento ajustado para a direita -->
     <div class="dashboard-container">
         <img src="Mercado_page-0001.jpg" alt="Dashboard de Vendas do Mercado" class="dashboard-img">
     </div>
