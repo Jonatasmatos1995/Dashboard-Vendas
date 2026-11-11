@@ -16,42 +16,45 @@
         }
         h1 {
             color: #333;
-            margin-bottom: 20px;
+            margin-bottom: 25px;
             text-align: center;
+            font-size: 32px;
         }
         .dashboard-container {
             width: 100%;
-            max-width: 950px;
-            height: 480px; /* Delimita a altura para eliminar a faixa branca inferior */
-            overflow: hidden; /* Esconde o excesso excedente de branco */
+            max-width: 1200px; /* Aumenta a largura total para preencher a tela */
             background: #fff;
-            border-radius: 8px;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.12);
+            padding: 15px;
+            box-sizing: border-box;
             display: flex;
             justify-content: center;
-            align-items: flex-start;
+            align-items: center;
         }
         .dashboard-img {
-            width: 105%; /* Ajusta a largura para remover as laterais brancas */
-            margin-top: -5px;
+            width: 100%; /* Faz a imagem expandir preenchendo todo o contentor proporcionalmente */
             height: auto;
             display: block;
+            border-radius: 8px;
         }
         .description-container {
-            width: 80%;
-            max-width: 950px;
-            margin-top: 30px;
+            width: 100%;
+            max-width: 1200px;
+            margin-top: 35px;
             background: #fff;
-            padding: 25px;
-            border-radius: 8px;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
-            font-size: 16px;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+            font-size: 17px;
             color: #444;
             line-height: 1.6;
+            box-sizing: border-box;
         }
         .description-container h3 {
             margin-top: 0;
             color: #007acc;
+            font-size: 22px;
         }
     </style>
 </head>
@@ -59,7 +62,7 @@
 
     <h1>Dashboard de Vendas do Mercado</h1>
     
-    <!-- Contentor com enquadramento otimizado -->
+    <!-- Contentor expandido que preenche o espaço de forma fluida -->
     <div class="dashboard-container">
         <img src="Mercado_page-0001.jpg" alt="Dashboard de Vendas do Mercado" class="dashboard-img">
     </div>
