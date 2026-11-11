@@ -22,7 +22,9 @@
         .dashboard-img {
             max-width: 100%;
             width: 1100px;
-            height: auto;
+            height: 510px; /* Corta o excesso de espaço em branco na parte inferior */
+            object-fit: cover;
+            object-position: top; /* Fixa o topo visível da imagem */
             border-radius: 8px;
             box-shadow: 0 4px 12px rgba(0,0,0,0.15);
         }
@@ -48,10 +50,8 @@
 
     <h1>Dashboard de Vendas do Mercado</h1>
     
-    <!-- Imagem do Dashboard de Vendas -->
     <img src="Mercado_page-0001.jpg" alt="Dashboard de Vendas do Mercado" class="dashboard-img">
 
-    <!-- Texto Explicativo do Projeto -->
     <div class="description-container">
         <h3>Sobre este projeto</h3>
         <p>
