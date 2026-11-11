@@ -21,25 +21,25 @@
         }
         .dashboard-container {
             width: 100%;
-            max-width: 1100px;
+            max-width: 950px;
+            height: 480px; /* Delimita a altura para eliminar a faixa branca inferior */
+            overflow: hidden; /* Esconde o excesso excedente de branco */
             background: #fff;
             border-radius: 8px;
             box-shadow: 0 4px 12px rgba(0,0,0,0.15);
             display: flex;
             justify-content: center;
-            align-items: center;
-            padding: 10px;
-            box-sizing: border-box;
+            align-items: flex-start;
         }
         .dashboard-img {
-            width: 100%;
+            width: 105%; /* Ajusta a largura para remover as laterais brancas */
+            margin-top: -5px;
             height: auto;
             display: block;
-            border-radius: 4px;
         }
         .description-container {
             width: 80%;
-            max-width: 1100px;
+            max-width: 950px;
             margin-top: 30px;
             background: #fff;
             padding: 25px;
@@ -59,7 +59,7 @@
 
     <h1>Dashboard de Vendas do Mercado</h1>
     
-    <!-- Contentor com a imagem inteira visível -->
+    <!-- Contentor com enquadramento otimizado -->
     <div class="dashboard-container">
         <img src="Mercado_page-0001.jpg" alt="Dashboard de Vendas do Mercado" class="dashboard-img">
     </div>
